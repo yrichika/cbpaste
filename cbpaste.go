@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"io"
 	"os"
-	"strings"
 
 	"golang.design/x/clipboard"
 )
 
 func main() {
 
-	clipErr := clipboard.Init()
-	if clipErr != nil {
-		fmt.Println("Error initializing clipboard", clipErr)
+	clitInitErr := clipboard.Init()
+	if clitInitErr != nil {
+		fmt.Println("Error initializing clipboard", clitInitErr)
 		os.Exit(1)
 	}
-	// TODO:
+
+	clipContent := clipboard.Read(clipboard.FmtText)
+	fmt.Print(string(clipContent))
 }
