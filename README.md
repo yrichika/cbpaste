@@ -5,16 +5,29 @@
 
 ## Description
 
-The command outputs the content of the clipboard to the console. It is similar to the Mac command `pbpaste`.
+This command is exclusive to WSL. The command outputs the content of the clipboard to the console. It is similar to the Mac command `pbpaste`.
 
 ```sh
 # copy something to the clipboard. then,
 cbpaste
 ```
 
+## Installation
+
+```sh
+brew tap yrichika/cbpaste
+brew install yrichika/cbpaste/cbpaste
+```
+
 ## 説明
 
+WSL専用のコマンドです。
 クリップボードの内容をコンソールに出力します。
 Macの`pbpaste`と同じようなコマンドです。
 
+## インストール方法
 
+```sh
+brew tap yrichika/cbpaste
+brew install yrichika/cbpaste/cbpaste
+```
