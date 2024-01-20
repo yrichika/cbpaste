@@ -31,3 +31,4 @@ Macの`pbpaste`と同じようなコマンドです。
 brew tap yrichika/cbpaste
 brew install yrichika/cbpaste/cbpaste
 ```
+
