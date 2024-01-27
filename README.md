@@ -35,3 +35,4 @@ brew install yrichika/cbpaste/cbpaste
 # OR Goがインストール済みの場合
 go install github.com/yrichika/cbpaste@latest
 ```
+
