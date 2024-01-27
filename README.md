@@ -17,6 +17,8 @@ cbpaste
 ```sh
 brew tap yrichika/cbpaste
 brew install yrichika/cbpaste/cbpaste
+# OR if you already installed Go
+go install github.com/yrichika/cbpaste@latest
 ```
 
 ## 説明
@@ -30,5 +32,7 @@ Macの`pbpaste`と同じようなコマンドです。
 ```sh
 brew tap yrichika/cbpaste
 brew install yrichika/cbpaste/cbpaste
+# OR Goがインストール済みの場合
+go install github.com/yrichika/cbpaste@latest
 ```
 
